@@ -1,0 +1,57 @@
+body{
+	margin:0;
+    padding:0;
+    background-image:url(login2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+    background-size:cover;
+
+	
+}
+.container{
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+.card{
+	padding:60px 40px 50px 40px;
+	background:rgb(50,50,50);
+	border-radius:10px;
+	position:absolute;
+	top:20px;
+}
+#name{
+	width:200;
+	border:none;
+	background:transparent;
+	border-bottom:1px solid white;
+	padding:6px;
+	margin-bottom:15px;
+}
+#pass{
+	width:200;
+	border:none;
+	background:transparent;
+	border-bottom:1px solid white;
+	padding:6px;
+	margin-bottom:15px;
+}
+#button{
+	border-radius:20px;
+	padding:10px 20px;
+	background:dodgerblue;
+	color:white;
+	margin-top:10px;
+	border:none;
+	outline:none;
+	margin-left:50px;
+}
+a{
+	font-size:13px;
+	color:white;
+}
+	
+	
+	
